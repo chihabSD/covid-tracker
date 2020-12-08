@@ -4,3 +4,6 @@ Covider is a covid-19 tracker that fetches covid's death, recovery, cases from d
 
 Technlogies used
 React, axios, MatrialUI
+
+
+[Check it on Heroku now](https://covider19.herokuapp.com/)

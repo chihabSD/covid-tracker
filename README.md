@@ -6,4 +6,4 @@ Technlogies used
 React, axios, MatrialUI
 
 
-[a link](https://covider19.herokuapp.com/)
+[Check it on Heroku now](https://covider19.herokuapp.com/)

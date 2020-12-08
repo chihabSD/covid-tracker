@@ -9,9 +9,12 @@ import {
 import { useEffect, useState } from "react";
 import axios from "axios";
 import InfoBox from "./components/InfoBox";
-import Map from "./components/Map";
+
 import Table from "./components/Table";
 import { sortData } from "./util";
+import LineGraph from "./components/LineGraph";
+import 'leaflet/dist/leaflet.css'
+import TheMap from "./components/Map";
 function App() {
   const [countries, setCountries] = useState([]);
   const [country, setCountry] = useState("worldwide");
@@ -91,13 +94,14 @@ function App() {
             total={countryInfo.deaths}
           />
         </div>
-        <Map />
+        <TheMap  /> 
       </div>
       <Card className="app__right">
         <CardContent>
           <h3>Live cases by country</h3>
           <Table countries={tableData} />
           <h3> Worldwide new cases </h3>
+          <LineGraph />
         </CardContent>
       </Card>
     </div>

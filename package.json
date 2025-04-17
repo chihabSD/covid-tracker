@@ -1,50 +1,49 @@
 {
-  "name": "covid19",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-       "dependencies": {
-    "@mui/material": "^5.15.8",
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
-    "@testing-library/jest-dom": "^6.2.0",
-    "@testing-library/react": "^15.1.2",
-    "@testing-library/user-event": "^14.5.2",
-  "react": "^18.2.0",
-  "axios": "^1.6.8",
-  "uuid": "^9.0.0"
-    "chart.js": "^4.4.2",
-    "leaflet": "^1.9.4",
-    "numeral": "^2.0.6",
-    "react": "^18.2.0",
-    "react-chartjs-2": "^5.3.1",
-    "react-dom": "^18.2.0",
-    "react-leaflet": "^4.2.1",
-    "web-vitals": "^3.4.2"
-  }
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "name": "covid19",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "dependencies": {
+            "@mui/material": "^5.15.8",
+            "@emotion/react": "^11.11.1",
+            "@emotion/styled": "^11.11.0",
+            "@testing-library/jest-dom": "^6.2.0",
+            "@testing-library/react": "^15.1.2",
+            "@testing-library/user-event": "^14.5.2",
+            "react": "^18.2.0",
+            "axios": "^1.6.8",
+            "uuid": "^9.0.0",
+            "chart.js": "^4.4.2",
+            "leaflet": "^1.9.4",
+            "numeral": "^2.0.6",
+            "react-chartjs-2": "^5.3.1",
+            "react-dom": "^18.2.0",
+            "react-leaflet": "^4.2.1",
+            "web-vitals": "^3.4.2"
+        }
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
 }
